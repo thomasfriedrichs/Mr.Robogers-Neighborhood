@@ -7,13 +7,9 @@
 
 ## test2
 * Describe: returnNumbers()
-* Test: "it should change number 32 to Won't you be my neighbor?"
+* Test: "it should change numbers including 3 to Won't you be my neighbor?"
 * code: returnNumbers(50)
-* expected output: 1-50 with the exception of 32 changing
+* expected output: numbers 1-50 with the exception of numbers including 3 changing to "Won't you be my neighbor?"
 
-## test3
-* Describe: returnNumbers()
-* Test: "it should change number 21 to boop"
-* code: returnNumbers(50)
-* expected output: 1-50 with the exception of 32 and 21 changing
+
 
