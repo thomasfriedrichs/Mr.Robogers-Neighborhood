@@ -1,4 +1,4 @@
-// buisiness l
+// buisiness logic
 
 function returnNumbers(usernumber) {
   let numbers = []
@@ -14,4 +14,12 @@ function returnNumbers(usernumber) {
   }  
   return numbers
 }
-returnNumbers(50);
+
+// ui logic 
+$(document).ready(function () {
+  $("form#form").submit(function (e) { 
+    let result = returnNumbers("#input");
+    $(".result").append(result);
+    e.preventDefault();
+  });
+});
