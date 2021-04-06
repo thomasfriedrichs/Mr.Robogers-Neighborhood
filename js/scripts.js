@@ -18,7 +18,8 @@ function returnNumbers(usernumber) {
 // ui logic 
 $(document).ready(function () {
   $("form#form").submit(function (e) { 
-    let result = returnNumbers("#input");
+    const userinput = $("#input").val();
+    let result = returnNumbers(userinput);
     $(".result").append(result);
     e.preventDefault();
   });
