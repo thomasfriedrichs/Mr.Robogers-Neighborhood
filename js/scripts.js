@@ -17,10 +17,9 @@ function returnNumbers(usernumber) {
 
 // ui logic 
 $(document).ready(function () {
-  $("form#form").submit(function (e) { 
-    const userinput = $("#input").val();
-    let result = returnNumbers(userinput);
-    $(".result").append(result);
-    e.preventDefault();
+  $("form#form").submit(function (event) { 
+    event.preventDefault();
+    let result = returnNumbers($("input").val());
+    $(".result").text(result);
   });
 });
