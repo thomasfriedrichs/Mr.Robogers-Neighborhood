@@ -19,9 +19,9 @@
 
 ## test 4
 * Describe: returnNumbers()
-* Test: "it should change numbers including 3 to Won't you be my neighbor?"
+* Test: "it should change numbers including 1 to "Beep!"
 * code: returnNumbers(50)
-* expected output: numbers 1-50 with the exception of numbers including 3 changing to "Won't you be my neighbor?"
+* expected output: numbers 1-50 with the exception of numbers including 1 changing to "Beep!"
 
 # _{Mr. Robogers Neighborhood}_
 
